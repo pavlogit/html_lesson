@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+div img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 80%;
+  /* максимальная ширина задаётся для того, чтобы на больших экранов размер container не был большим, и ограничивался этим значением */
+  max-width: 1400px;
+  margin: 10px auto;
+  padding: 5px;
+  background: lightcoral;
+}
+
+.header {
+  min-height: 100px;
+  background: green;
+  margin: 1%;
+}
+
+.left {
+  width: 30%;
+  margin: 1%;
+  background: cyan;
+  min-height: 200px;
+  float: left;
+}
+
+.right {
+  width: 66%;
+  margin: 1%;
+  background: rgb(4, 0, 255);
+  min-height: 200px;
+  float: left;
+}
+
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.left-1 {
+  width: 48%;
+  margin: 1%;
+  background: rgb(255, 238, 0);
+  min-height: 100px;
+  float: left;
+}
+
+.right-1 {
+  width: 48%;
+  margin: 1%;
+  background: rgb(0, 255, 0);
+  min-height: 100px;
+  float: left;
+}
+
+.left-2 {
+  width: 48%;
+  margin: 1%;
+  background: rgb(255, 136, 0);
+  min-height: 100px;
+  float: left;
+}
+
+.rigth-2 {
+  width: 48%;
+  margin: 1%;
+  min-height: 100px;
+  background: rgb(105, 60, 60);
+  float: left;
+}
+
+.wrap::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  /* from 0px to 600px */
+  .container {
+    background: rgb(0, 0, 0);
+    width: 90%;
+  }
+
+  .left, .right, .header {
+    font-size: 1.15rem;
+  }
+
+  .left {
+    width: 48%;
+  }
+
+  .right {
+    width: 48%;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .container {
+    background: red;
+    width: 98%;
+  }
+
+  .left, .right, .header {
+    font-size: 1.25rem;
+  }
+
+  .left {
+    width: 98%;
+  }
+
+  .right {
+    width: 98%;
+  }
+
+  .left-1 {
+    width: 98%;
+    float: none;
+  }
+  
+  .right-1 {
+    width: 98%;
+    float: none;
+  }
+  
+  .left-2 {
+    width: 98%;
+    float: none;
+  }
+  
+  .rigth-2 {
+    width: 98%;
+    float: none;
+  }
+}
