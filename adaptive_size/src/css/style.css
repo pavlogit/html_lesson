@@ -1,0 +1,33 @@
+
+.main {
+  width: 1000px;
+  height: 300px;
+  margin: 100px auto;
+  background: pink;
+}
+
+.test {
+  width: 50%;
+  height: 10%;
+  background: cyan;
+  /* margin и padding в %, вычисляется относительно ШИРИНЫ родителя */
+  margin: 1%;
+  padding: 2%;
+}
+
+html, body {
+  font-size: 16px;
+}
+
+.one{
+  font-size: 1.5rem;
+}
+
+.two {
+  font-size: 2rem;
+}
+
+.three {
+  font-size: 3rem;
+}
+
