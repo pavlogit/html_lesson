@@ -2,6 +2,12 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   background: #f4f6f8;
+  font-family: $ff;
+  color: $mfcolor;
+  }
+
+  p {
+    margin: 0;
   }
 
 .container {

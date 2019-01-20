@@ -1,4 +1,19 @@
+h3 {
+  font-size: 36px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 20px 0;
+  span {
+    color: $orcolor;
+  }
+}
+
+.section-description {
+  text-align: center;
+}
+
 .goods-block {
+  margin: 80px 0;
   &::after {
     content: "";
     display: block;
@@ -7,19 +22,22 @@
 }
 
 .goods-card {
-  width: 250px;
-  height: 365px;
-  margin: 0 15px;
+  width: 22%;
+  height: 100%;
+  margin: 0 1.2%;
   background: #ffffff;
   float: left;
   text-align: center;
+  font-size: 18px;
   img{
     margin-top: 30px;
   }
   .goods-title {  
     font-family: $ff;
-    color: #34404b;
-    font-size: 18px;
+    font-weight: 700;
+  }
+  .price {
+    color: $orcolor;
     font-weight: 700;
   }
 } 
