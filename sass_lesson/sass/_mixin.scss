@@ -1,0 +1,5 @@
+//переменная объект, которой можно задавать значение при вызове
+@mixin bradius($rad) {
+  -webkit-border-radius: $rad;
+  border-radius: $rad;
+}

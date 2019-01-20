@@ -1,0 +1,57 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  background: yellow;
+  padding-left: 20px;
+  width: 80%;
+  height: 50%;
+  border: 1px solid red;
+}
+
+h1 {
+  font-size: 34px;
+  font-family: Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+nav {
+  color: red;
+}
+
+nav li {
+  font-size: 14px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.two, .one {
+  background: red;
+}
+
+.one {
+  border-radius: 10px;
+}
+
+.three {
+  color: #ff8282;
+  width: 1200px;
+}
+
+.four {
+  color: black;
+  width: 200px;
+}
+/*# sourceMappingURL=style.css.map */
