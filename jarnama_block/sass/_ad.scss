@@ -1,0 +1,87 @@
+.block_adv {
+  width: 50%;
+  min-height: 100px;
+  background: #ffffff;
+  border: 1px solid #eaedef;
+  margin: 0 -2%;
+  .sale {
+    width: 25%;
+    margin: 0 2%;
+    float: left;
+    .sale-img {
+      width: 80px;
+      height: 80px;
+      background-image: url(../img/romb.png);
+      margin: 10px auto;
+      text-align: center;
+      span {
+        display: block;
+        color: #ffffff;
+        font-size: 12px;
+        font-style: italic;
+        padding: 18px 0 5px 0;
+      }
+      p {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+      }
+    }
+  }
+  .slogan {
+    width: 40%;
+    float: left;
+    min-height: 100px;
+    margin: 0 2%;
+    padding-top: 26px;
+    text-align: left;
+    position: relative;
+    h3 {
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin: 0;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 12px;
+      font-weight: 400;
+      color: #495662;
+    }
+    &::after {
+      content: '';
+      display: block;
+      width: 1px;
+      height: 45px;
+      background: #f5f5f6;
+      position: absolute;
+      right: 0px;
+      top: 27px;
+    }
+  }
+  .adv-price {
+    width: 23%;
+    margin: 0 2%;
+    min-height: 100px;
+    float: left;
+    color: $orcolor;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 100px;
+    span {
+      font-size: 22px;
+      margin-left: -10px;
+    }
+    p {
+      &::before {
+        content: '';
+        width: 22px;
+        height: 22px;
+        margin-right: 21px;
+        display: inline-block;
+        background: url(../img/ad_icon.png);
+      }
+    }
+  }
+}
+
