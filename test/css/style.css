@@ -26,6 +26,7 @@ p, h1, h2, h3 {
   color: #ffffff;
   text-align: left;
   border-radius: 10px 10px 0 0;
+  font-weight: bold;
 }
 
 .main {
@@ -49,8 +50,7 @@ p, h1, h2, h3 {
       flex-wrap: wrap;
   padding: 15px;
   border-radius: 10px;
-  border: 1px solid #dadada;
-  border-top: none;
+  border: 1px solid #cccccc;
 }
 
 .main .main-info .main-info__status {
